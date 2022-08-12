@@ -7,7 +7,7 @@ description: links and stuff for @briandavidhall
 
 # if it's an external image, update below for true
 # better with square images
-external-image: false
+external-image: true
 picture: assets/images/looking-confused.png
 
 url: https://bdh.wtf
