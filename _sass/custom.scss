@@ -1,0 +1,42 @@
+$blue: #74c0fc;
+$darkgrey: #1f242a;
+$lightgrey: #adb5bd;
+$fonts: 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
+
+html {
+  background-color: $darkgrey;
+  font-family: $fonts;
+  color: $lightgrey;
+}
+
+h1 {
+  color: $blue !important;
+  font-family: $fonts !important;
+}
+
+h2 {
+  color: $lightgrey !important;
+  font-family: $fonts !important;
+}
+
+.social-links > .link > .icon {
+  fill: $blue !important;
+}
+
+.social-links > .link:hover > .icon {
+  fill: $lightgrey !important;
+}
+
+.main a.button {
+  background-color: $blue !important;
+  font-family: $fonts !important;
+  text-transform: none !important;
+}
+
+.main a.button:hover {
+  color: $darkgrey;
+}
+
+.footer-main:before {
+  border: none !important;
+}
