@@ -1,4 +1,10 @@
 <div class="social-links">
+    {% if site.tiktok %}
+        <a class="link" data-title="tiktok.com/@{{ site.tiktok }}" href="https://www.tiktok.com/@{{ site.tiktok }}" target="_blank">
+            <svg class="icon icon-tiktok"><use xlink:href="#icon-tiktok"></use></svg>
+        </a>
+    {% endif %}
+
     {% if site.facebook %}
         <a class="link" data-title="facebook.com/{{ site.facebook }}" href="https://facebook.com/{{ site.facebook }}" target="_blank">
             <svg class="icon icon-facebook"><use xlink:href="#icon-facebook"></use></svg>

@@ -1,13 +1,13 @@
 # main text of home
 title: briandavidhall
-bio: website strategy, freelancing, vegetables
+#bio: website strategy, freelancing, growing food
 
 # twitter summary info
 description: links and stuff for @briandavidhall
 
 # if it's an external image, update below for true
 # better with square images
-external-image: true
+# external-image: true
 picture: assets/images/looking-confused.png
 
 url: https://bdh.wtf
@@ -23,9 +23,7 @@ permalink: /:title/
 # if you don't have any of social below, comment the line
 # facebook:
 twitter: briandavidhall
-instagram: websitesucks
 # pinterest:
-linkedin: briandavidhall
 youtube: channel/UCi7Tdfq87gF7atPHzGRb99A
 # github:
 # spotify:  
@@ -37,6 +35,7 @@ youtube: channel/UCi7Tdfq87gF7atPHzGRb99A
 # medium: 
 # vimeo: myvimeo
 # lanyrd: mylanyrd
+# tiktok: websitesucks
 email: hello@briandavidhall.com
 
 # do you want a larger site? change the option below
@@ -66,7 +65,7 @@ resume: false
 #resume-url: https://google.com/?q=my+resume
 
 # do you want some animations?
-animation: true
+animation: false
 
 plugins:
   - jekyll-seo-tag
