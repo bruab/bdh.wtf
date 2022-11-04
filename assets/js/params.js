@@ -25,7 +25,7 @@ if (adGroup && adGroupCopy[adGroup]) {
 } 
 
 // if present, custom heading and/or paragraph override ad group copy
-if (decodeURI(heading)) {
+if (heading) {
   updateHeading(decodeURI(heading));
 }
 if (paragraph) {
